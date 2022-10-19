@@ -68,22 +68,23 @@ const SearchWeather = () => {
               ? "warm search_weather-section"
               : "warm search_weather-section cold"
             : "warm search_weather-section"
-  //           if(typeof weather.main != "undefined"){
-  //             if (weather.weather[0].main==='Clear') {
-  //               'warm search_weather-section'
-  //             }else if(weather.weather[0].main==='Clouds'){
-  //               'search_weather-section cold'
-  //             }else if(weather.weather[0].main==='Rain'){
-  //               'search_weather-section rain'
-  //             }else{
-  // 'warm search_weather-section'
-  //             };
-  //           };
+          //           if(typeof weather.main != "undefined"){
+          //             if (weather.weather[0].main==='Clear') {
+          //               'warm search_weather-section'
+          //             }else if(weather.weather[0].main==='Clouds'){
+          //               'search_weather-section cold'
+          //             }else if(weather.weather[0].main==='Rain'){
+          //               'search_weather-section rain'
+          //             }else{
+          // 'warm search_weather-section'
+          //             };
+          //           };
         }>
         <div className="blur-layer"></div>
         <div className="container">
           <div className="search_weather-container">
             <div className="search-box">
+              Press Enter to search
               <input
                 type="text"
                 placeholder="Search city"
